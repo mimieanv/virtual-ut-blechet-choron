@@ -18,6 +18,7 @@
 		0FA17ECF18520F6700C5BEB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA17EB618520F6700C5BEB7 /* Foundation.framework */; };
 		0FA17ED718520F6700C5BEB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0FA17ED518520F6700C5BEB7 /* InfoPlist.strings */; };
 		0FA17EDA18520F6700C5BEB7 /* iVirtualUTTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA17ED918520F6700C5BEB7 /* iVirtualUTTTests.m */; };
+		0FA17EE818520FDE00C5BEB7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FA17EE718520FDE00C5BEB7 /* MainStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +36,19 @@
 		0FA17EB418520F6700C5BEB7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0FA17EB618520F6700C5BEB7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0FA17EB818520F6700C5BEB7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		0FA17EBC18520F6700C5BEB7 /* iVirtualUTT-Info.plist */ = {isa = PBXFileReference; path = "iVirtualUTT-Info.plist"; sourceTree = "<group>"; };
+		0FA17EBC18520F6700C5BEB7 /* iVirtualUTT-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iVirtualUTT-Info.plist"; sourceTree = "<group>"; };
 		0FA17EBE18520F6700C5BEB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0FA17EC018520F6700C5BEB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0FA17EC218520F6700C5BEB7 /* iVirtualUTT-Prefix.pch */ = {isa = PBXFileReference; path = "iVirtualUTT-Prefix.pch"; sourceTree = "<group>"; };
-		0FA17EC318520F6700C5BEB7 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		0FA17EC218520F6700C5BEB7 /* iVirtualUTT-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iVirtualUTT-Prefix.pch"; sourceTree = "<group>"; };
+		0FA17EC318520F6700C5BEB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0FA17EC418520F6700C5BEB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0FA17ECB18520F6700C5BEB7 /* iVirtualUTTTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iVirtualUTTTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FA17ECC18520F6700C5BEB7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		0FA17ED418520F6700C5BEB7 /* iVirtualUTTTests-Info.plist */ = {isa = PBXFileReference; path = "iVirtualUTTTests-Info.plist"; sourceTree = "<group>"; };
+		0FA17ED418520F6700C5BEB7 /* iVirtualUTTTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iVirtualUTTTests-Info.plist"; sourceTree = "<group>"; };
 		0FA17ED618520F6700C5BEB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0FA17ED818520F6700C5BEB7 /* iVirtualUTTTests.h */ = {isa = PBXFileReference; path = iVirtualUTTTests.h; sourceTree = "<group>"; };
+		0FA17ED818520F6700C5BEB7 /* iVirtualUTTTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iVirtualUTTTests.h; sourceTree = "<group>"; };
 		0FA17ED918520F6700C5BEB7 /* iVirtualUTTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iVirtualUTTTests.m; sourceTree = "<group>"; };
+		0FA17EE718520FDE00C5BEB7 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				0FA17EC318520F6700C5BEB7 /* AppDelegate.h */,
 				0FA17EC418520F6700C5BEB7 /* AppDelegate.m */,
 				0FA17EBB18520F6700C5BEB7 /* Supporting Files */,
+				0FA17EE718520FDE00C5BEB7 /* MainStoryboard.storyboard */,
 			);
 			path = iVirtualUTT;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FA17EBF18520F6700C5BEB7 /* InfoPlist.strings in Resources */,
+				0FA17EE818520FDE00C5BEB7 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +415,7 @@
 				0FA17EDF18520F6700C5BEB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0FA17EE018520F6700C5BEB7 /* Build configuration list for PBXNativeTarget "iVirtualUTTTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				0FA17EE218520F6700C5BEB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
